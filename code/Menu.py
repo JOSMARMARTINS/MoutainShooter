@@ -20,13 +20,13 @@ class Menu:
             self.menu_text(
                 50,  # tamanho da fonte
                 "Mountain",  # texto
-                COLOR_ORANGE,  # cor RGB
+                COLOR_WHITE,  # cor RGB
                 (WIN_WIDTH / 2, 70)  # posição X, Y
             )
             self.menu_text(
                 50,  # tamanho da fonte
                 "Shooter",  # texto
-                COLOR_ORANGE,  # cor RGB
+                COLOR_WHITE,  # cor RGB
                 (WIN_WIDTH / 2, 120)  # posição X, Y
             )
 
