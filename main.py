@@ -12,5 +12,6 @@ while True:  #Laço indinico para mante minha janela aberta sem fechar
     # check for all events
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
+            print('Quiting...')
             pygame.quit()  # close Window
             quit()  # end pygame
